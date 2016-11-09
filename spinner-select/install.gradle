@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'kevinjanvier.spinnerselect.library' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'kevinjanvier.spinnerselect'
+                groupId 'kevinjanvier.spinnerselect.library' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'spinner-select' // THE NAME OF YOUR MODULE
+
+                name 'SpinnerSelect' // YOUR LIBRARY NAME
+                description 'Android Spinner populate category.' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/kevinjam/SpinnerSelect' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'fa63093a965b83c72b0aa8375f886a506dfd233d' //YOUR ID
+                        name 'kevinjam' //YOUR NAME
+                        email 'kevin.janvier5@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/kevinjam/SpinnerSelect.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/kevinjam/SpinnerSelect.git' // YOUR GIT REPO
+                    url 'https://github.com/kevinjam/SpinnerSelect' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}
