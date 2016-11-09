@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">SpinnerSelect</string>
+
+    <string-array name="type">
+        <item>Select Category</item>
+        <item >University</item>
+        <item >Church</item>
+        <!--<item >Technology</item>-->
+        <!--<item >Africa</item>-->
+        <!--<item>America</item>-->
+
+    </string-array>
+
+    <string-array name="universty">
+        <item>StLawrence</item>
+        <item >Havard University</item>
+        <item >Makerere University</item>
+        <item >Dedje University</item>
+    </string-array>
+
+    <string-array name="church">
+        <item>Miracle Center</item>
+        <item >Faith Family</item>
+        <item >Jesus God</item>
+        <item >God Healer</item>
+        <item>St.Luke</item>
+    </string-array>
+
+
+
+    <string-array name="africa">
+        <item>Angola</item>
+        <item >DrCongo</item>
+        <item >Uganda</item>
+        <item >Kenya</item>
+        <item>Tchad</item>
+
+    </string-array>
+
+
+    <string-array name="america">
+        <item>Alaska</item>
+        <item >Arizona</item>
+        <item >Illinois</item>
+        <item >Idaho</item>
+        <item>Nevada</item>
+
+    </string-array>
+
+    <string-array name="technology">
+         <item>Phone</item>
+        <item >Laptop</item>
+        <item >Camera</item>
+        <item >Charger</item>
+        <item>Speaker</item>
+    </string-array>
+
+
+</resources>
